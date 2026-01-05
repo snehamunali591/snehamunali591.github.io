@@ -8,71 +8,45 @@ body {
 }
 
 /* ===== Header ===== */
+/* ===== Header ===== */
+/* ===== Header ===== */
 header {
-    background-color: #444;
-    color: #f0f0f0;
+    background-color: #d9d9d9; 
+    color: #333;
     text-align: center;
     padding: 50px 20px;
 }
+
+
 
 .profile-photo {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     border: 3px solid #f0f0f0;
-    margin-bottom: 20px;
-}
-
-header h1 {
-    margin: 10px 0 5px 0;
-    font-size: 34px;
-}
-
-header p, header a {
-    margin: 3px 0;
-    font-size: 16px;
-    color: #ddd;
-}
-
-header a {
-    text-decoration: none;
 }
 
 /* ===== Social Links ===== */
-.social-links {
-    margin-top: 15px;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
 .social-links a {
     display: flex;
     align-items: center;
-    color: #ddd;
+    color: #000; 
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s;
 }
 
 .social-links a:hover {
-    color: #0077b5; /* hover color */
+    color: #0077b5; /* hover effect */
 }
-
 .social-icon {
     width: 24px;
     height: 24px;
     margin-right: 8px;
 }
 
-/* ===== Main Content ===== */
-main {
-    max-width: 850px;
-    margin: 40px auto;
-    padding: 0 20px;
-}
-
-section {
+/* ===== Main Content Sections ===== */
+main section {
     background-color: #fff;
     padding: 25px;
     margin-bottom: 20px;
@@ -80,16 +54,18 @@ section {
     box-shadow: 0 3px 8px rgba(0,0,0,0.12);
 }
 
+/* Headings */
 h2 {
     border-bottom: 2px solid #444;
     padding-bottom: 6px;
 }
 
+/* Lists */
 ul {
     margin: 10px 0 0 20px;
 }
 
-/* ===== Footer ===== */
+/* Footer */
 footer {
     text-align: center;
     padding: 20px;

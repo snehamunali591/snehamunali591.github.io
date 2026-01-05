@@ -1,109 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Sneha Munnalli - Full Stack Web Developer</title>
-   <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneha Munnalli - Full Stack Web Developer</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-   <div class="profile">
-       <img src="profile.png" alt="Sneha Munnalli" class="profile-photo">
-       <h1>Sneha Munnalli</h1>
-       <p>Full Stack Web Developer</p>
-       <p>Calgary, Alberta, Canada T1Y 1P7 | (579) 571-9133 | snehamunnalli@gmail.com</p>
 
-       <div class="social-links">
-           <a href="https://www.linkedin.com/in/snehamunnalli" target="_blank">
-               <img src="linkedin-icon.png" alt="LinkedIn" class="social-icon"> LinkedIn
-           </a>
-           <a href="https://github.com/snehamunali591" target="_blank">
-               <img src="github-icon.png" alt="GitHub" class="social-icon"> GitHub
-           </a>
-       </div>
-   </div>
+<!-- Header / Profile Section -->
+<header class="profile-header">
+    <div class="profile text-center">
+        <img src="profile.png" alt="Sneha Munnalli" class="profile-photo mb-3">
+        <h1>Sneha Munnalli</h1>
+        <p>Full Stack Web Developer</p>
+        <p>Calgary, Alberta, Canada T1Y 1P7 | (579) 571-9133 | 
+            <a href="mailto:snehamunnalli@gmail.com" class="text-decoration-underline">snehamunnalli@gmail.com</a>
+        </p>
+
+        <!-- Social Links -->
+        <div class="social-links d-flex justify-content-center gap-3 mt-3">
+            <a href="https://www.linkedin.com/in/snehamunnalli" target="_blank" class="text-decoration-underline">
+                <img src="linkedin-icon.png" alt="LinkedIn" class="social-icon"> LinkedIn
+            </a>
+            <a href="https://github.com/snehamunali591" target="_blank" class="text-decoration-underline">
+                <img src="github-icon.png" alt="GitHub" class="social-icon"> GitHub
+            </a>
+            <a href="mailto:snehamunnalli@gmail.com" target="_blank" class="text-decoration-underline">
+                <img src="email-icon.png" alt="Email" class="social-icon"> Email
+            </a>
+        </div>
+    </div>
 </header>
 
-<main>
-   <section class="summary">
-       <h2>Summary</h2>
-       <p>Full Stack Web Developer with strong experience in .NET development, SQL, application debugging, and quality assurance. Skilled in end-to-end software development and collaborative Agile environments. Known for bridging the gap between technical performance and user satisfaction by combining hands-on development experience with a user-centric mindset.</p>
-   </section>
+<!-- Main Content -->
+<main class="container my-5">
 
-   <section class="technologies">
-       <h2>Technologies</h2>
-       <ul>
-           <li><b>Languages & Frameworks:</b> C#, .NET, ASP.NET, JavaScript, HTML, CSS, Python (basics)</li>
-           <li><b>Databases:</b> SQL Server, T-SQL</li>
-           <li><b>Tools & Platforms:</b> Visual Studio, Git, Azure DevOps, Eclipse</li>
-           <li><b>Methodologies & Other Skills:</b> Agile, Scrum, Debugging, API Integration, Unit Testing, Technical Support</li>
-       </ul>
-   </section>
+    <!-- Summary Section -->
+    <section class="summary mb-4 p-4 bg-white rounded shadow-sm">
+        <h2>Summary</h2>
+        <p>Full Stack Web Developer with strong experience in .NET development, SQL, application debugging, and quality assurance. Skilled in end-to-end software development and collaborative Agile environments. Known for bridging the gap between technical performance and user satisfaction by combining hands-on development experience with a <i>user-centric mindset</i>.</p>
+    </section>
 
-   <section class="experience">
-       <h2>Professional Experience</h2>
+    <!-- Technologies Section -->
+    <section class="technologies mb-4 p-4 bg-white rounded shadow-sm">
+        <h2>Technologies</h2>
+        <ul>
+            <li><b>Languages & Frameworks:</b> C#, .NET, ASP.NET, JavaScript, HTML, CSS, Python (basics)</li>
+            <li><b>Databases:</b> SQL Server, T-SQL</li>
+            <li><b>Tools & Platforms:</b> Visual Studio, Git, Azure DevOps, Eclipse</li>
+            <li><b>Methodologies & Other Skills:</b> Agile, Scrum, Debugging, API Integration, Unit Testing, Technical Support</li>
+        </ul>
+    </section>
 
-       <div class="job">
-           <h3>Technical Customer Support Representative (Contract) | Working Solutions | Jan 2025 – Present</h3>
-           <p><b>Projects:</b> TurboTax & Halo Collar – delivered technical support via phone, chat, and email, troubleshooting software & device issues (GPS, LTE, Wi-Fi, Bluetooth).</p>
-           <p><b>Responsibilities:</b></p>
-           <ul>
-               <li>Guided users through multi-step installation, configuration, and error resolution.</li>
-               <li>Maintained knowledge of product architecture and technical workflows.</li>
-               <li>Provided insights on UI/UX issues to improve software and user experience.</li>
-           </ul>
-       </div>
+    <!-- Professional Experience -->
+    <section class="experience mb-4 p-4 bg-white rounded shadow-sm">
+        <h2>Professional Experience</h2>
 
-       <div class="job">
-           <h3>QA Analyst | Thirdstream, Lethbridge, AB | Oct 2023 – Jul 2024</h3>
-           <ul>
-               <li>Performed debugging using Visual Studio and analyzed stack traces.</li>
-               <li>Executed SQL queries to validate database consistency and CRUD operations.</li>
-               <li>Participated in Agile ceremonies and contributed test scenarios.</li>
-           </ul>
-       </div>
+        <div class="job mb-3">
+            <h3>Technical Customer Support Representative (Contract) | Working Solutions | Jan 2025 – Present</h3>
+            <p><b>Projects:</b> TurboTax & Halo Collar – delivered technical support via phone, chat, and email, troubleshooting software & device issues (GPS, LTE, Wi-Fi, Bluetooth).</p>
+            <ul>
+                <li>Guided users through multi-step installation, configuration, and error resolution.</li>
+                <li>Maintained knowledge of product architecture and technical workflows.</li>
+                <li>Provided insights on UI/UX issues to improve software and user experience.</li>
+            </ul>
+        </div>
 
-       <div class="job">
-           <h3>Technical Consultant – .NET Developer | JDA Software (Blue Yonder), India | Jun 2013 – Jul 2018</h3>
-           <ul>
-               <li>Developed and maintained .NET warehouse management modules.</li>
-               <li>Participated in full SDLC: requirement gathering, architecture, development, testing, deployment.</li>
-               <li>Collaborated with clients to translate business requirements into technical specifications.</li>
-               <li>Supported legacy applications with patches and enhancements.</li>
-           </ul>
-       </div>
+        <div class="job mb-3">
+            <h3>QA Analyst | Thirdstream, Lethbridge, AB | Oct 2023 – Jul 2024</h3>
+            <ul>
+                <li>Performed debugging using Visual Studio and analyzed stack traces.</li>
+                <li>Executed SQL queries to validate database consistency and CRUD operations.</li>
+                <li>Participated in Agile ceremonies and contributed test scenarios.</li>
+            </ul>
+        </div>
 
-       <div class="job">
-           <h3>Software Engineer Intern | Tata Consultancy Services, India | Aug 2012 – May 2013</h3>
-           <ul>
-               <li>Supported development teams with code contributions for web applications.</li>
-               <li>Participated in unit testing and debugging workflows in .NET.</li>
-               <li>Gained experience in Agile teams and version control practices.</li>
-           </ul>
-       </div>
-   </section>
+        <div class="job mb-3">
+            <h3>Technical Consultant – .NET Developer | JDA Software (Blue Yonder), India | Jun 2013 – Jul 2018</h3>
+            <ul>
+                <li>Developed and maintained .NET warehouse management modules.</li>
+                <li>Participated in full SDLC: requirement gathering, architecture, development, testing, deployment.</li>
+                <li>Collaborated with clients to translate business requirements into technical specifications.</li>
+                <li>Supported legacy applications with patches and enhancements.</li>
+            </ul>
+        </div>
 
-   <section class="education">
-       <h2>Education</h2>
-       <ul>
-           <li>Master of Technology (M.Tech) in Computer Science & Networking – R.V. College of Engineering, Bangalore, India | 2011 – 2013 (Degree certified by IQAS, Canada)</li>
-           <li>Bachelor of Engineering (B.E.) in Computer Science – VTU, Karnataka, India | 2007 – 2011 (Degree certified by IQAS, Canada)</li>
-       </ul>
-   </section>
+        <div class="job mb-3">
+            <h3>Software Engineer Intern | Tata Consultancy Services, India | Aug 2012 – May 2013</h3>
+            <ul>
+                <li>Supported development teams with code contributions for web applications.</li>
+                <li>Participated in unit testing and debugging workflows in .NET.</li>
+                <li>Gained experience in Agile teams and version control practices.</li>
+            </ul>
+        </div>
+    </section>
 
-   <section class="certifications">
-       <h2>Certifications</h2>
-       <ul>
-           <li>Full-Stack Web Development with Python Programming – Making Changes Association, Oct 2025 – Present</li>
-           <li>Bootstrap – Code Academy, Oct 2025 – Present</li>
-           <li>Javascript – Code Academy, Oct 2025 – Present</li>
-       </ul>
-   </section>
+    <!-- Education Section -->
+    <section class="education mb-4 p-4 bg-white rounded shadow-sm">
+        <h2>Education</h2>
+        <ul>
+            <li><b>Master of Technology (M.Tech) in Computer Science & Networking</b> – R.V. College of Engineering, Bangalore, India | 2011 – 2013 (Degree certified by IQAS, Canada)</li>
+            <li><b>Bachelor of Engineering (B.E.) in Computer Science</b> – VTU, Karnataka, India | 2007 – 2011 (Degree certified by IQAS, Canada)</li>
+        </ul>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="certifications mb-4 p-4 bg-white rounded shadow-sm">
+        <h2>Certifications</h2>
+        <ul>
+            <li><b>Full-Stack Web Development with Python Programming</b> – Making Changes Association, Oct 2025 – Present</li>
+            <li><b>Bootstrap</b> – Code Academy, Oct 2025 – Present</li>
+            <li><b>JavaScript</b> – Code Academy, Oct 2025 – Present</li>
+        </ul>
+    </section>
+
 </main>
 
-<footer>
-   <p>&copy; 2026 Sneha Munnalli</p>
+<!-- Footer -->
+<footer class="text-center p-3 bg-secondary text-light">
+    <p>&copy; 2026 Sneha Munnalli</p>
 </footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
